@@ -28,6 +28,6 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \serhatozles\simplehtmldom\SimpleDOMHtml::file_get_html('http://google.com'); ?>```
+<?= \serhatozles\simplehtmldom\SimpleHTMLDom::file_get_html('http://google.com'); ?>```
 
 See more: http://simplehtmldom.sourceforge.net/

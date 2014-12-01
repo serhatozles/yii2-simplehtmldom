@@ -35,7 +35,7 @@ define('MAX_FILE_SIZE', 600000);
 // get html dom from file
 // $maxlen is defined in the code as PHP_STREAM_COPY_ALL which is defined as -1.
 
-class SimpleDOMHtml extends \yii\helpers\Inflector
+class SimpleHTMLDom extends \yii\helpers\Inflector
 {
 
     public static function file_get_html($url, $use_include_path = false, $context = null, $offset = -1, $maxLen = -1, $lowercase = true, $forceTagsClosed = true, $target_charset = DEFAULT_TARGET_CHARSET, $stripRN = true, $defaultBRText = DEFAULT_BR_TEXT, $defaultSpanText = DEFAULT_SPAN_TEXT) {
